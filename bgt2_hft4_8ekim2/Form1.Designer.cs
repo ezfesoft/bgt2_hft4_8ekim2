@@ -45,13 +45,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.lblIndex = new System.Windows.Forms.Label();
-            this.lblAd = new System.Windows.Forms.Label();
-            this.lblSoyad = new System.Windows.Forms.Label();
             this.lblItemCount = new System.Windows.Forms.Label();
+            this.lblSoyad = new System.Windows.Forms.Label();
+            this.lblAd = new System.Windows.Forms.Label();
+            this.lblIndex = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -99,7 +99,7 @@
             this.textBox1.Location = new System.Drawing.Point(4, 23);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(137, 20);
-            this.textBox1.TabIndex = 3;
+            this.textBox1.TabIndex = 1;
             // 
             // button1
             // 
@@ -117,7 +117,7 @@
             this.textBox2.Location = new System.Drawing.Point(147, 23);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(137, 20);
-            this.textBox2.TabIndex = 6;
+            this.textBox2.TabIndex = 2;
             // 
             // label3
             // 
@@ -237,6 +237,46 @@
             this.panel3.Size = new System.Drawing.Size(404, 290);
             this.panel3.TabIndex = 17;
             // 
+            // lblItemCount
+            // 
+            this.lblItemCount.AutoSize = true;
+            this.lblItemCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblItemCount.Location = new System.Drawing.Point(221, 128);
+            this.lblItemCount.Name = "lblItemCount";
+            this.lblItemCount.Size = new System.Drawing.Size(82, 25);
+            this.lblItemCount.TabIndex = 18;
+            this.lblItemCount.Text = "label13";
+            // 
+            // lblSoyad
+            // 
+            this.lblSoyad.AutoSize = true;
+            this.lblSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSoyad.Location = new System.Drawing.Point(137, 89);
+            this.lblSoyad.Name = "lblSoyad";
+            this.lblSoyad.Size = new System.Drawing.Size(82, 25);
+            this.lblSoyad.TabIndex = 17;
+            this.lblSoyad.Text = "label12";
+            // 
+            // lblAd
+            // 
+            this.lblAd.AutoSize = true;
+            this.lblAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAd.Location = new System.Drawing.Point(105, 49);
+            this.lblAd.Name = "lblAd";
+            this.lblAd.Size = new System.Drawing.Size(82, 25);
+            this.lblAd.TabIndex = 16;
+            this.lblAd.Text = "label11";
+            // 
+            // lblIndex
+            // 
+            this.lblIndex.AutoSize = true;
+            this.lblIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblIndex.Location = new System.Drawing.Point(166, 9);
+            this.lblIndex.Name = "lblIndex";
+            this.lblIndex.Size = new System.Drawing.Size(70, 25);
+            this.lblIndex.TabIndex = 15;
+            this.lblIndex.Text = "label2";
+            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.button3);
@@ -245,17 +285,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(292, 156);
             this.panel4.TabIndex = 18;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(4, 78);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(280, 63);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Seçili Kişiyi Sil";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -268,45 +297,16 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // lblIndex
+            // button2
             // 
-            this.lblIndex.AutoSize = true;
-            this.lblIndex.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblIndex.Location = new System.Drawing.Point(166, 9);
-            this.lblIndex.Name = "lblIndex";
-            this.lblIndex.Size = new System.Drawing.Size(70, 25);
-            this.lblIndex.TabIndex = 15;
-            this.lblIndex.Text = "label2";
-            // 
-            // lblAd
-            // 
-            this.lblAd.AutoSize = true;
-            this.lblAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAd.Location = new System.Drawing.Point(105, 49);
-            this.lblAd.Name = "lblAd";
-            this.lblAd.Size = new System.Drawing.Size(82, 25);
-            this.lblAd.TabIndex = 16;
-            this.lblAd.Text = "label11";
-            // 
-            // lblSoyad
-            // 
-            this.lblSoyad.AutoSize = true;
-            this.lblSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSoyad.Location = new System.Drawing.Point(137, 89);
-            this.lblSoyad.Name = "lblSoyad";
-            this.lblSoyad.Size = new System.Drawing.Size(82, 25);
-            this.lblSoyad.TabIndex = 17;
-            this.lblSoyad.Text = "label12";
-            // 
-            // lblItemCount
-            // 
-            this.lblItemCount.AutoSize = true;
-            this.lblItemCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblItemCount.Location = new System.Drawing.Point(221, 128);
-            this.lblItemCount.Name = "lblItemCount";
-            this.lblItemCount.Size = new System.Drawing.Size(82, 25);
-            this.lblItemCount.TabIndex = 18;
-            this.lblItemCount.Text = "label13";
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(4, 78);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(280, 63);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Seçili Kişiyi Sil";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
